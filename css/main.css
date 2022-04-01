@@ -1,0 +1,117 @@
+/* source-sans-pro-regular - latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/source-sans-pro-v19-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/source-sans-pro-v19-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-sans-pro-italic - latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/source-sans-pro-v19-latin-italic.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/source-sans-pro-v19-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* source-sans-pro-700 - latin */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/source-sans-pro-v19-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/source-sans-pro-v19-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+li{
+  list-style: none;
+}
+input{
+  outline: none;
+}
+.last-person-massage{
+  color: rgba(153, 153, 153, 1);
+}
+.row{
+  height: 47px;
+}
+.search-input{
+  background-color: #F4F4F4;
+  outline: none;
+  width: 85%;
+}
+.time , .last-person-no-pinned{
+  color: #A9A9A9;
+}
+.main{
+  height: 569px;
+}
+.nav__list{
+  max-height: 569px;
+  overflow: hidden;
+}
+.nav__link{
+  position: relative;
+  height: 66px;
+}
+.name::after{
+  content: "Web";
+  color: #A9A9A9;
+  position: absolute;
+  right: 16px;
+}
+.name-and-time::after{
+  content: "11:58 AM";
+  color: #A9A9A9;
+  position: absolute;
+  right: 16px;
+  font-style: 12px;
+  font-weight: 400;
+}
+.fri::after{
+  content: "Fri";
+  color: #A9A9A9;
+  position: absolute;
+  right: 16px;
+}
+.last-person-massage::after{
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/pinned.svg");
+  content: "";
+}
+.person-chat , .main-chat-person{
+  font-size: 13px;
+  line-height: 16px;
+}
+.main-chat{
+  max-height: 569px;
+  overflow: auto;
+}
+.main-date{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #999;
+  margin-top: 12px;
+}
+.img-box{
+  width: 337px;
+  height: auto;
+}
