@@ -59,7 +59,7 @@ input{
 }
 .nav__list{
   max-height: 569px;
-  overflow: hidden;
+  overflow: auto;
 }
 .nav__link{
   position: relative;
